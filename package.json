@@ -2,6 +2,7 @@
 	"name": "vindicam-alibi",
 	"version": "0.0.1",
 	"description": "Vindicam's alibi backend server",
+	"main": "dist/index.js",
 	"scripts": {
 		"start": "node --require ts-node/register/transpile-only src/index.ts",
 		"watch": "watchexec --restart --debounce 100 --watch src --exts ts -- NODE_ENV=development node --require ts-node/register/transpile-only --inspect src/index.ts"
@@ -11,6 +12,7 @@
 		"dotenv": "^8.2.0",
 		"exit-hook": "^2.2.0",
 		"fs-extra": "^9.0.1",
+		"mediasoup": "^3.6.8",
 		"popsicle": "^12.0.5",
 		"rambda": "^5.8.0",
 		"rambdax": "^3.7.0",
