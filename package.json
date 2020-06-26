@@ -1,0 +1,32 @@
+{
+	"name": "vindicam-alibi",
+	"version": "0.0.1",
+	"description": "Vindicam's alibi backend server",
+	"scripts": {
+		"start": "node --require ts-node/register/transpile-only src/index.ts",
+		"watch": "watchexec --restart --debounce 100 --watch src --exts ts -- NODE_ENV=development node --require ts-node/register/transpile-only --inspect src/index.ts"
+	},
+	"dependencies": {
+		"dayjs": "^1.8.28",
+		"dotenv": "^8.2.0",
+		"exit-hook": "^2.2.0",
+		"fs-extra": "^9.0.1",
+		"popsicle": "^12.0.5",
+		"rambda": "^5.8.0",
+		"rambdax": "^3.7.0",
+		"string-fn": "^2.12.0"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.1",
+		"@types/node": "^14.0.14",
+		"dts-generate": "^1.4.5",
+		"node-env-dev": "^1.8.25",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.5"
+	},
+	"license": "Unlicense",
+	"author": "Robert Laverty <roblav96@gmail.com> (https://github.com/roblav96)",
+	"homepage": "https://github.com/roblav96/vindicam-alibi#readme",
+	"repository": "github:roblav96/vindicam-alibi",
+	"bugs": "https://github.com/roblav96/vindicam-alibi/issues"
+}
