@@ -1,2 +1,2 @@
-# vindicam-alibi
-Backend server alibi for Vindicam
+# Vindicam Alibi
+Vindicam backend server as an alibi
